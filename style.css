@@ -21,9 +21,13 @@ header {
 }
 
 .menu a:hover{
-    background: #ef8354;
+    background: #ef8958;
 }
 
 .Genero{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#umaru{
+    width: 120px;
 }
