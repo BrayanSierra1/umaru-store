@@ -10,7 +10,6 @@ body {
 
 .container-menu {
     background: #f9fbfb;
-
 }
 
 .menu {
@@ -46,7 +45,7 @@ body {
     align-items: center;
 }
 
-.title-logo{
+.title-logo {
     padding: 4px 10px;
     border-radius: 5px;
     color: #f9fbfb;
@@ -56,13 +55,12 @@ body {
     text-align: center;
 }
 
-.bg-orange{
+.bg-orange {
     background-color: #ef8958;
 }
 
 #umaru {
     width: 120px;
-
 }
 
 .inicio {
@@ -71,20 +69,19 @@ body {
     align-items: center;
 }
 
-.inicio > div{
+.inicio>div {
     padding: 30px;
-
 }
 
-.w-50{
+.w-50 {
     width: 50%;
 }
 
-.txt-center{
+.txt-center {
     text-align: center;
 }
 
-footer{
+footer {
     background-color: #ef8958;
     padding: 20px 10px;
     position: fixed;
@@ -92,6 +89,6 @@ footer{
     width: 100%;
 }
 
-.redes{
+.redes {
     width: 100px;
 }
