@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -84,11 +87,16 @@ body {
 footer {
     background-color: #ef8958;
     padding: 20px 10px;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
 }
 
 .redes {
     width: 100px;
+}
+
+.section-container{
+    height: 100vh;
+}
+
+section:nth-child(odd){
+    background-color: #ededed;
 }
