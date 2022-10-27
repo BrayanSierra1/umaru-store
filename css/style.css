@@ -249,3 +249,7 @@ section:nth-child(odd) {
     }
 }
 
+.img-home{
+    border-radius: 45px;
+    box-align: center;
+}
