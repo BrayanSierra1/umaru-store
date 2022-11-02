@@ -1,0 +1,25 @@
+{
+  "name": "umaru-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass scss/prueba.scss css/pruebacss.css",
+    "watch-css": "sass --watch scss/prueba.scss css/pruebacss.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrayanSierra1/umaru-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrayanSierra1/umaru-store/issues"
+  },
+  "homepage": "https://github.com/BrayanSierra1/umaru-store#readme",
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  }
+}
