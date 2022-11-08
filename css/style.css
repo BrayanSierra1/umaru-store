@@ -278,11 +278,15 @@ section:nth-child(odd) {
 .image {
     position: relative;
     width: 400px;
+    display: inline-block;
+    margin: 40px;
 }
 
 .image__img {
     display: block;
     width: 100%;
+    border-radius: 15px;
+    align-items: center;
 }
 
 .image__overlay {
@@ -290,7 +294,7 @@ section:nth-child(odd) {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 95%;
     background: rgba(0, 0, 0, 0.6);
     color: #ffffff;
     font-family: monospace;
@@ -300,9 +304,10 @@ section:nth-child(odd) {
     justify-content: center;
     opacity: 0;
     transition: opacity 0.25s;
+    border-radius: 15px;
 }
 
-.image__overlay--blur{
+.image__overlay--blur {
     backdrop-filter: blur(5px);
 }
 
@@ -315,7 +320,7 @@ section:nth-child(odd) {
     opacity: 1;
 }
 
-.image__overlay:hover > * {
+.image__overlay:hover>* {
     transform: translate(0);
 }
 
